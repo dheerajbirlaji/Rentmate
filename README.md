@@ -51,7 +51,7 @@ A modern web application to help roommates manage chores, expenses, and househol
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/rentmate.git
+   git clone https://github.com/dheerajbirlaji/Rentmate.git
    cd rentmate
    ```
 
@@ -108,9 +108,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- Your Name - Initial work
+- Dheeraj Birlaji - Initial work
 
 ## 🙏 Acknowledgments
 
 - Thanks to all contributors
-- Inspired by real-world roommate challenges 
+- Inspired by real-world roommate challenges
