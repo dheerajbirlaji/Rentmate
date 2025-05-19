@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: rentmate-api
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: cd server && npm install && npm run build:prod
+    startCommand: cd server && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: FRONTEND_URL
+        value: https://rentmate.vercel.app
+    healthCheckPath: /health
+    autoDeploy: true 
